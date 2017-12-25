@@ -9,7 +9,7 @@
 			"icon": "ftbl:textures/icons/info.png"
 		},
 		"chunk_claiming": {
-			"title": "FTBUtilities",
+			"title": "Chunk Claiming",
 			"icon": "chunk_claiming/icon.png"
 		},
 		"ranks": {
