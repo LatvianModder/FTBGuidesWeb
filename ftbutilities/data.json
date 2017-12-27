@@ -1,46 +1,11 @@
 {
 	"title": "FTBUtilities",
-	"icon": "logo.png",
+	"type": "mod",
 	"authors": ["LatvianModder"],
-	"version": "1.0.0",
-	"subpages": {
-		"faq": {
-			"title": "Frequently Asked Questions",
-			"icon": "faq/icon.png"
-		},
-		"chunk_claiming": {
-			"title": "Chunk Claiming",
-			"icon": "chunk_claiming/icon.png"
-		},
-		"ranks": {
-			"title": "Ranks",
-			"icon": "item:minecraft:diamond_sword",
-			"subpages": {
-				"file_structure": {
-					"title": "Folder Structure and File Descriptions",
-					"icon": "item:minecraft:paper"
-				},
-				"config": {
-					"title": "Configuration",
-					"icon": "ranks/config/icon.png"
-				},
-				"commands": {
-					"title": "Commands",
-					"icon": "item:minecraft:command_block"
-				},
-				"badges": {
-					"title": "Server Badges",
-					"icon": "item:minecraft:diamond_chestplate"
-				},
-				"example_config": {
-					"title": "Example ranks.json",
-					"icon": "item:minecraft:nether_star"
-				}
-			}
-		},
-		"tp_commands": {
-			"title": "Teleportation Commands",
-			"icon": "item:minecraft:ender_pearl"
-		}
-	}
+	"subpages": [
+		"faq",
+		"chunk_claiming",
+		"ranks",
+		"tp_commands"
+	]
 }
