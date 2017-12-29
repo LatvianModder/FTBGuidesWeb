@@ -1,0 +1,10 @@
+{
+	"title": "Writing Guides",
+	"type": "other",
+	"authors": ["LatvianModder"],
+	"subpages": [
+		"api",
+		"colors",
+		"recipe"
+	]
+}
