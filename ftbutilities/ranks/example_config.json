@@ -1,0 +1,40 @@
+[
+	{
+		"codeblock": [
+			"{",
+			"  \"default_ranks\": { //People get these ranks if they don't have a specific rank assigned to them with /ranks set",
+			"    \"player\": \"player\", //Everyone who isn't OP is assigned the player group",
+			"    \"op\": \"admin\" //OPs get the admin group",
+			"  },",
+			"  \"ranks\": {",
+			"    \"player\": { //Here the first group \"player\" starts",
+			"      \"parent\": \"builtin_player\", //Parent means it will inherit from this group, in this case the \"builtin_player\" group (see Default Groups)",
+			"      \"permissions\": [ //Permission Block",
+			"        \"+ftbu.claims.block.edit.gravestone.gravestone\", //Plus symbol adds a permission",
+			"        \"-ftbu.claims.upgrade.no_explosions\", //Minus symbol removes a permission",
+			"        \"-ftbu.claims.upgrade.no_pvp\"",
+			"      ],",
+			"      \"config\": {} //Config Block",
+			"    },",
+			"    \"admin\": { //Here the second group \"admin\" starts",
+			"      \"parent\": \"builtin_op\", //Inherits from the \"builtin_op\" group",
+			"      \"syntax\": \"&lt;&amp;2$name&amp;r&gt; \", //How their username will be displayed in chat",
+			"      \"permissions\": [",
+			"        \"+*\" //Adds (plus) all perms, star is a wildcard",
+			"      ],",
+			"      \"config\": {}",
+			"    },",
+			"    \"vip\": { //Group \"VIP\" starts here",
+			"      \"parent\": \"player\", //Inherits from the player group",
+			"      \"syntax\": \"&lt;&amp;b$name&amp;r&gt; \", //How their username will be displayed in chat",
+			"      \"permissions\": [],",
+			"      \"config\": {",
+			"        \"ftbu.chunkloader.max_chunks\": 40,",
+			"        \"ftbu.claims.max_chunks\": 80",
+			"      }",
+			"    }",
+			"  }",
+			"}"
+		]
+	}
+]

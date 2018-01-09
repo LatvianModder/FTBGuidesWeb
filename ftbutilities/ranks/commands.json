@@ -1,0 +1,10 @@
+[
+	"There are a few utility commands for ranks, so you don't have to do everything in the configs.",
+	{
+		"list": [
+			[{"code": "/ftb ranks set <player> <rank|none>"}, " - Sets or removes player's rank"],
+			[{"code": "/ftb ranks get <player>"}, " - Prints player's rank"],
+			[{"code": "/ftb chunks check_permission <player> <permission>"}, " - Prints permission value for the specified player"]
+		]
+	}
+]

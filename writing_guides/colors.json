@@ -1,0 +1,35 @@
+[
+	{"h1": "Colors"},
+	{
+		"head": ["MC Code", "Name", "Example", "Json"],
+		"table": [
+			[{"code": "&1"}, "Dark Blue", {"text": "Example", "color": "dark_blue"}, "{\"text\":\"Example\", \"color\":\"dark_blue\"}"],
+			[{"code": "&9"}, "Blue", {"text": "Example", "color": "blue"}, "{\"text\":\"Example\", \"color\":\"blue\"}"],
+			[{"code": "&3"}, "Dark Aqua", {"text": "Example", "color": "dark_aqua"}, "{\"text\":\"Example\", \"color\":\"dark_aqua\"}"],
+			[{"code": "&b"}, "Aqua", {"text": "Example", "color": "aqua"}, "{\"text\":\"Example\", \"color\":\"aqua\"}"],
+			[{"code": "&2"}, "Dark Green", {"text": "Example", "color": "dark_green"}, "{\"text\":\"Example\", \"color\":\"dark_green\"}"],
+			[{"code": "&a"}, "Green", {"text": "Example", "color": "green"}, "{\"text\":\"Example\", \"color\":\"green\"}"],
+			[{"code": "&e"}, "Yellow", {"text": "Example", "color": "yellow"}, "{\"text\":\"Example\", \"color\":\"yellow\"}"],
+			[{"code": "&6"}, "Gold", {"text": "Example", "color": "gold"}, "{\"text\":\"Example\", \"color\":\"gold\"}"],
+			[{"code": "&c"}, "Red", {"text": "Example", "color": "red"}, "{\"text\":\"Example\", \"color\":\"red\"}"],
+			[{"code": "&4"}, "Dark Red", {"text": "Example", "color": "dark_red"}, "{\"text\":\"Example\", \"color\":\"dark_red\"}"],
+			[{"code": "&5"}, "Dark Purple", {"text": "Example", "color": "dark_purple"}, "{\"text\":\"Example\", \"color\":\"dark_purple\"}"],
+			[{"code": "&d"}, "Light Purple", {"text": "Example", "color": "light_purple"}, "{\"text\":\"Example\", \"color\":\"light_purple\"}"],
+			[{"code": "&f"}, "White", {"text": "Example", "color": "white"}, "{\"text\":\"Example\", \"color\":\"white\"}"],
+			[{"code": "&7"}, "Gray", {"text": "Example", "color": "gray"}, "{\"text\":\"Example\", \"color\":\"gray\"}"],
+			[{"code": "&8"}, "Dark Gray", {"text": "Example", "color": "dark_gray"}, "{\"text\":\"Example\", \"color\":\"dark_gray\"}"],
+			[{"code": "&0"}, "Black", {"text": "Example", "color": "black"}, "{\"text\":\"Example\", \"color\":\"black\"}"]
+		]
+	},
+	{"h1": "Formatting"},
+	{
+		"head": ["MC Code", "Name", "Example", "Json"],
+		"table": [
+			[{"code": "&l"}, "Bold", {"text": "Example", "bold": true}, "{\"text\": \"Example\", \"bold\": true}"],
+			[{"code": "&o"}, "Italic", {"text": "Example", "italic": true}, "{\"text\": \"Example\", \"italic\": true}"],
+			[{"code": "&n"}, "Underline", {"text": "Example", "underlined": true}, "{\"text\": \"Example\", \"underlined\": true}"],
+			[{"code": "&m"}, "Strikeout", {"text": "Example", "strikethrough": true}, "{\"text\": \"Example\", \"strikethrough\": true}"],
+			[{"code": "&`"}, "Code", {"code": "Example"}, "{\"code\": \"Example\"}"]
+		]
+	}
+]

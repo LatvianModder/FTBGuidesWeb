@@ -1,0 +1,49 @@
+[
+	{"h1": "Enabling Ranks"},
+	"Set 'Enabled', 'Override Chat' &amp; 'Override Commands' to true under FTBUtilities > Ranks.",
+	{
+		"list": [
+			"[Click Here to open Config GUI for FTBUtilities]",
+			"Open the config.json with an editor like Sublime or Notepad++."
+		]
+	},
+	{"h1": "Built in Ranks"},
+	"There are two builtin ranks:",
+	{
+		"codeblock": [
+			"builtin_player",
+			"builtin_op"
+		]
+	},
+	"You can find all permissions and configurations assigned to them in the all permissions and all configs files. \"builtin_player\" is marked as ALL and \"builtin_op\" marked as OP.",
+	{"h1": "Default Rank Assignment"},
+	"At the beginning of the ranks.json we can assign players and OP's to a rank they will automatically have when joining the server.",
+	{"h2": "Example"},
+	{
+		"codeblock": [
+			"\"player\": \"member\", //Originally \"player\"",
+			"\"op\": \"admin\" //Originally \"op\""
+		]
+	},
+	{"h1": "Permissions"},
+	"You can add permission nodes in this section, a minus in front of the node will set it to false and a plus will set a node to true.",
+	{"h2": "Example:"},
+	{
+		"codeblock": [
+			"\"+ftbu.claims.block.edit.minecraft.sand\"",
+			"\"-ftbu.claims.block.edit.minecraft.stone\""
+		]
+	},
+	"Will allow the rank to break sand in claims, and disallow the rank to break stone in a claim.",
+	{"h1": "Configuration (config)"},
+	"Configuration node followed by a value, you can find these and their allowed values in all_configs.html",
+	{"h1": "Chat Formatting (syntax)"},
+	"This section allows you to change how a player name will be displayed in chat. You can set Prefixes, Suffixes or change the name color of a player. The placeholder for the playername is always $name, Minecraft chat formatting codes are fully supported.",
+	"<a href=\"/writing_guides/colors\">[Click Here to open Colors page]</a>",
+	{"h2": "Example"},
+	{
+		"codeblock": [
+			["\"syntax\": \"<&2[Admin]&6 $name&r>\" - ", "<", {"text": "[Admin]", "color": "dark_green"}, {"text": " LatvianModder", "color": "gold"}, ">"]
+		]
+	}
+]

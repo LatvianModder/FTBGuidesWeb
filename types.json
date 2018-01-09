@@ -1,0 +1,17 @@
+[
+	{
+		"id": "mod",
+		"title": "Mod",
+		"title_p": "Mods"
+	},
+	{
+		"id": "modpack",
+		"title": "Modpack",
+		"title_p": "Modpacks"
+	},
+	{
+		"id": "other",
+		"title": "Other",
+		"title_p": "Other"
+	}
+]

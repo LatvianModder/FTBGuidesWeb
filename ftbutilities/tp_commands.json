@@ -1,0 +1,28 @@
+[
+	"There are few commands that you can use to teleport as player from FTBU:",
+	{
+		"list": [
+			{
+				"list": [
+					[{"code": "/sethome [name]"}, " - Creates a home"],
+					[{"code": "/home [name]"}, " - Teleports you to a home"],
+					[{"code": "/home list"}, " - Lists all your homes"],
+					[{"code": "/delhome [name]"}, " - Deletes a home"],
+					"[name] is optional for multiple homes, 'home' is used if it's blank"
+				]
+			},
+			{
+				"list": [
+					[{"code": "/setwarp <name>"}, " - Creates a warp"],
+					[{"code": "/warp <name>"}, " - Teleports you to a warp"],
+					[{"code": "/warp list"}, " - Lists all warps"],
+					[{"code": "/delwarp <name>"}, " - Deletes a warp"]
+				]
+			},
+			[{"code": "/back"}, " - Teleports you to your last death location. It only works once by default, so you can't use this as another home to cheat"],
+			[{"code": "/spawn"}, " - Teleports you to world's spawnpoint"]
+		]
+	},
+	"If the command doesn't work, try it with '/ftb [command]' prefix, e.g. /ftb home.",
+	"You can also bind a key to 'Warps GUI' in Controls, and while in-game, pressing it will open Warps GUI, from which you can choose home, warp, back location or spawn with one click."
+]

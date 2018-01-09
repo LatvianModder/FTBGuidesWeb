@@ -2,10 +2,60 @@
 	"title": "FTBUtilities",
 	"type": "mod",
 	"authors": ["LatvianModder"],
-	"subpages": [
-		"faq",
-		"chunk_claiming",
-		"ranks",
-		"tp_commands"
+	"pages": [
+		{
+			"id": "faq",
+			"title": "Frequently Asked Questions",
+			"icon": "ftblib:icons/info"
+		},
+		{
+			"id": "chunk_claiming",
+			"title": "Chunk Claiming",
+			"icon": "ftblib:icons/map"
+		},
+		{
+			"id": "ranks",
+			"title": "Ranks",
+			"icon": "item:minecraft:diamond_sword",
+			"pages": [
+				{
+					"id": "file_structure",
+					"title": "Folder Structure and File Descriptions",
+					"icon": "item:minecraft:paper"
+				},
+				{
+					"id": "config",
+					"title": "Configuration",
+					"icon": "ftblib:icons/settings"
+				},
+				{
+					"id": "commands",
+					"title": "Commands",
+					"icon": "item:minecraft:command_block"
+				},
+				{
+					"id": "badges",
+					"title": "Server Badges",
+					"icon": "item:minecraft:diamond_chestplate",
+					"buttons": [
+						{
+							"title": "More Info About Badges",
+							"icon": "ftblib:icons/info",
+							"click": "http://badges.latmod.com"
+						}
+					]
+				},
+				{
+					"id": "example_config",
+					"title": "Example ranks.json",
+					"icon": "item:minecraft:nether_star"
+				}
+			]
+		},
+		{
+			"id": "tp_commands",
+			"title": "Teleportation Commands",
+			"icon": "item:minecraft:ender_pearl"
+		}
 	]
 }

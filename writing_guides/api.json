@@ -1,0 +1,23 @@
+[
+	{"h1": "Available files"},
+	{
+		"list": [
+			[{"code": "types.json", "click": "https://raw.githubusercontent.com/LatvianModder/FTBGuidesWeb/master/types.json"}, " - Lists supported guide types"],
+			[{"code": "iconrepos.json", "click": "https://raw.githubusercontent.com/LatvianModder/FTBGuidesWeb/master/iconrepos.json"}, " - Lists all icon repositories (To use icons like \"ftblib:icons/map\")"],
+			[{"code": "/api/guides.json", "click": "http://guides.latmod.com/api/guides.json"}, " - Lists all available guides. See ", {"text": "data.json page", "click": "/writing_guides#datajson"}],
+			[{"code": "/api/items.json", "click": "http://guides.latmod.com/api/items.json"}, " - Lists supported guide types"],
+			[{"code": "/style.css", "click": "http://guides.latmod.com/style.css"}, " - CSS file that controls how Guides website look like."]
+		]
+	},
+	{"h2": "types.json"},
+	{
+		"head": ["Key", "Type", "Description"],
+		"table": [
+			[{"code": "id"}, "String", "Lowercase ID"],
+			[{"code": "title"}, "String", "Title"],
+			[{"code": "title_p"}, "String", "Title (Plural)"]
+		]
+	},
+	{"h1": "Updating"},
+	"The API / Guides update every time something is pushed to the FTBGuidesWeb repository to minimize resource usage. All files are static."
+]

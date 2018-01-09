@@ -2,9 +2,22 @@
 	"title": "Writing Guides",
 	"type": "other",
 	"authors": ["LatvianModder"],
-	"subpages": [
-		"api",
-		"colors",
-		"recipe"
+	"icon": "item:minecraft:writable_book",
+	"pages": [
+		{
+			"id": "api",
+			"title": "API",
+			"icon": "ftblib:icons/bug"
+		},
+		{
+			"id": "colors",
+			"title": "Colors",
+			"icon": "ftblib:icons/color_hsb"
+		},
+		{
+			"id": "recipe",
+			"title": "<recipe> tag",
+			"icon": "item:minecraft:paper"
+		}
 	]
 }
