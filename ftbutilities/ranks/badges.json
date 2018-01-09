@@ -11,5 +11,5 @@
 		]
 	},
 	"First value is the target players UUID or username, second value is the URL (link) to an image.",
-	"You can also assign rank based badge with \"ftbu.badge\" rank config."
+	"You can also assign rank based badge with \"ftbutilities.badge\" rank config."
 ]

@@ -8,10 +8,10 @@
 	"For example, I might have 3 groups, \"player\", \"admin\" and \"vip\". I want vip to inherit permissions from player, and admin to inherit permissions from from the builtin_op rank.",
 	{"h1": "Permission"},
 	"On your server, there will be a number of features, commands, and functionality which is added to the game. Most of these actions have a permission associated with them, so you can control which users have access to each feature or command.",
-	"A permission is just a string, and is separated into parts using periods. For example, \"ftbu.back.infinite\" is the permission to use the /back command infinitely. Obviously we don’t want all users to have access to this, so we only give it to some users.",
+	"A permission is just a string, and is separated into parts using periods. For example, \"ftbutilities.back.infinite\" is the permission to use the /back command infinitely. Obviously we don’t want all users to have access to this, so we only give it to some users.",
 	"The string that represents a certain permission is also sometimes called a \"permission node\" or just \"node\" for short.",
 	{"h1": "UUID"},
 	"Universally unique identifier - every paid Minecraft account has one of those, and it's used to uniquely identify players even when they change their name. E.g. this is LatvianModder's UUID: ",
 	{"codeblock": ["5afb9a5b207d480e887967bc848f9a8f"]},
-	["You can use a website like ", {"text": "namemc.com", "click": "https://namemc.com/"}, " to convert from a player's username to their UUID. Note: FTBU supports both types of UUID."]
+	["You can use a website like ", {"text": "mcuuid.net", "click": "https://mcuuid.net/"}, " to convert from a player's username to their UUID. Note: FTBU supports both types of UUID."]
 ]

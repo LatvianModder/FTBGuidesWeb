@@ -30,8 +30,8 @@
 	{"h2": "Example:"},
 	{
 		"codeblock": [
-			"\"+ftbu.claims.block.edit.minecraft.sand\"",
-			"\"-ftbu.claims.block.edit.minecraft.stone\""
+			"\"+ftbutilities.claims.block.edit.minecraft.sand\"",
+			"\"-ftbutilities.claims.block.edit.minecraft.stone\""
 		]
 	},
 	"Will allow the rank to break sand in claims, and disallow the rank to break stone in a claim.",
