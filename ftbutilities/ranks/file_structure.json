@@ -1,5 +1,5 @@
 [
-	"Files that are inside local/ftbutilities/:",
+	["Files that are inside ", {"code": "local/ftbutilities/:"}],
 	{
 		"list": [
 			[{"code": "all_permissions.html"}, " - Usually cut-off fancy page for all permissions FTBU can use"],
