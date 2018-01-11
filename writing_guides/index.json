@@ -1,7 +1,7 @@
 [
 	{"h1": "Files"},
 	{"h2": "index.json"},
-	["Guide files are written in json (though you probably should use ingame editor for that!), and ", {"code": "id/index.json"}, " is selected by default, but ", {"code": "id/index.json"}, " also can be used."]
+	["Guide files are written in json (though you probably should use ingame editor for that!), and ", {"code": "id/index.json"}, " is selected by default, but ", {"code": "id/index.json"}, " also can be used."],
 	{"h2": "data.json", "id": "datajson"},
 	[{"code": "data.json"}, " file must be added in each directoy where index.html exists."],
 	{
