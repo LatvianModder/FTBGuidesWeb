@@ -39,7 +39,6 @@
 	"Configuration node followed by a value, you can find these and their allowed values in all_configs.html",
 	{"h1": "Chat Formatting (syntax)"},
 	"This section allows you to change how a player name will be displayed in chat. You can set Prefixes, Suffixes or change the name color of a player. The placeholder for the playername is always $name, Minecraft chat formatting codes are fully supported.",
-	"<a href=\"/writing_guides/colors\">[Click Here to open Colors page]</a>",
 	{"h2": "Example"},
 	{
 		"codeblock": [
