@@ -1,4 +1,4 @@
 {
-	"ftblib": "https://raw.githubusercontent.com/LatvianModder/FTBLib/master/src/main/resources/assets/ftblib/textures",
-	"ftbguides": "https://raw.githubusercontent.com/LatvianModder/FTBGuides/master/src/main/resources/assets/ftbguides/textures"
+	"ftblib": "https://raw.githubusercontent.com/LatvianModder/FTBLib/master/src/main/resources/assets/ftblib",
+	"ftbguides": "https://raw.githubusercontent.com/LatvianModder/FTBGuides/master/src/main/resources/assets/ftbguides"
 }
