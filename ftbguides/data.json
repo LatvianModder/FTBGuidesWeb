@@ -1,0 +1,19 @@
+{
+	"title": "FTB Guides",
+	"type": "mod",
+	"modid": "ftbguides",
+	"authors": ["LatvianModder", "FTB"],
+	"icon": "item:minecraft:writable_book",
+	"pages": [
+		{
+			"id": "api",
+			"title": "API",
+			"icon": "ftblib:icons/bug"
+		},
+		{
+			"id": "icons",
+			"title": "Icons",
+			"icon": "item:minecraft:grass"
+		}
+	]
+}
