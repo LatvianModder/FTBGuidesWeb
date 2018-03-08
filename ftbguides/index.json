@@ -3,14 +3,14 @@
 	{"h2": "index.json"},
 	["Guide files are written in json (though you probably should use ingame editor for that!), and ", {"code": "id/index.json"}, " is selected by default, but ", {"code": "id/index.json"}, " also can be used."],
 	{"h2": "data.json", "id": "datajson"},
-	[{"code": "data.json"}, " file must be added in each directoy where index.html exists."],
+	[{"code": "data.json"}, " file must be added in your guide folder."],
 	{
 		"head": ["Key", "Type", "Required", "Description"],
 		"table": [
 			[{"code": "id"}, "String", "true*", "Lowercase ID"],
 			[{"code": "title"}, "String", "true", "Display name"],
 			[{"code": "type"}, "String", "true**", "Type of the guide, e.g. \"mod\". Used for sorting / easier viewing."],
-			[{"code": "icon"}, "String", "false", "Absolute path to icon. You can use items as icons, e.g. \"item:minecraft:apple\". If this key is missing, icon.png from current folder will be used."],
+			[{"code": "icon"}, "Icon", "false", "Absolute path to icon. You can use items as icons, e.g. \"item:minecraft:apple\". If this key is missing, icon.png from current folder will be used."],
 			[{"code": "authors"}, "String[]", "false**", "List of mod/modpack authors. If you only made the guide, don't list yourself here."],
 			[{"code": "pages"}, "Page[]", "false", "List of subpages. If this key is missing or value is empty, no subpages will be listed."],
 			[{"code": "modid"}, "String", "false", "For mod type only - Used in minecraft to bind a guide to a mod, if guide ID doesn't match mod ID."]
@@ -36,7 +36,8 @@
 	{
 		"list": [
 			"View all guides in-game by clicking Guides button in inventory.",
-			["Add a modpack-specific guide in ", {"code": "config/ftbguides/modpack"}, " folder."],
+			["Add a modpack-specific guide in ", {"code": "config/ftbguides/modpack_guide"}, " folder."],
+			["Add a modpack-specific mod guides in ", {"code": "config/ftbguides/mod_guides"}, " folder."],
 			["Add a server-specific guide in ", {"code": "local/ftbguides/server"}, " folder."]
 		]
 	},

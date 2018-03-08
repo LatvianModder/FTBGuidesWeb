@@ -1,7 +1,8 @@
 {
-	"title": "FTBUtilities",
+	"title": "FTB Utilities",
 	"type": "mod",
-	"authors": ["LatvianModder"],
+	"modid": "ftbutilities",
+	"authors": ["LatvianModder", "FTB"],
 	"pages": [
 		{
 			"id": "faq",

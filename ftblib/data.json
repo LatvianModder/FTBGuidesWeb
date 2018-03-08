@@ -1,5 +1,6 @@
 {
 	"title": "FTBLib",
 	"type": "mod",
-	"authors": ["LatvianModder"]
+	"modid": "ftblib",
+	"authors": ["LatvianModder", "FTB"]
 }
