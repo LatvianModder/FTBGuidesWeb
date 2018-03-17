@@ -1,7 +1,6 @@
 [
 	{"h1": "Available files"},
 	{
-	{
 		"head": [
 			{"text": "File", "style": {"code": true}},
 			"Description"
