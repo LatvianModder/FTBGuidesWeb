@@ -23,6 +23,5 @@
 			[{"code": "/spawn"}, " - Teleports you to world's spawnpoint"]
 		]
 	},
-	"If the command doesn't work, try it with '/ftb [command]' prefix, e.g. /ftb home.",
 	"You can also bind a key to 'Warps GUI' in Controls, and while in-game, pressing it will open Warps GUI, from which you can choose home, warp, back location or spawn with one click."
 ]
