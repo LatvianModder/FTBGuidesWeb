@@ -33,7 +33,7 @@
 			"[admin extends player is default_op_rank] // This rank will be used for OPs that don't have a rank assigned",
 			"command: true // Allows to use all commands"
 		]
-	}
+	},
 	{"h1": "Chat Formatting"},
 	"Chat formatting is composed of 8 parts: Prefix [Left], Prefix [Base], Prefix [Right], Name, Suffix [Left], Suffix [Base], Suffix [Right], Text. Why so many parts? So you can have better control over ",
 	{"h2": "Example"},

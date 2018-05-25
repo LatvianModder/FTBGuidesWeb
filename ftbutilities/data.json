@@ -70,7 +70,7 @@
 				},
 				{
 					"id": "example_config",
-					"title": "Example ranks.json",
+					"title": "Example ranks.txt",
 					"icon": "item:minecraft:nether_star"
 				}
 			]
