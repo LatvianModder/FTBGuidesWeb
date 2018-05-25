@@ -1,14 +1,12 @@
 [
-	["Files that are inside ", {"code": "local/ftbutilities/:"}],
+	["Files that are inside ", {"code": "local/ftbutilities/"}, ":"],
 	{
 		"list": [
 			[{"code": "all_permissions.html"}, " - Usually cut-off fancy page for all permissions FTBU can use"],
 			[{"code": "all_permissions_full_list.txt"}, " - Plaintext list of all permission nodes"],
-			[{"code": "config.json"}, " - General FTBU configuration"],
-			[{"code": "player_ranks.json"}, " - Stores rank of players by UUID"],
-			[{"code": "ranks.json"}, " - Stores ranks"],
-			[{"code": "server_badges.json"}, " - Badge configuration"],
-			[{"code": "all_configs.html"}, " - All available configuration nodes for FTBU"]
+			[{"code": "player_ranks.txt"}, " - Stores rank of players by Username/UUID"],
+			[{"code": "ranks.txt"}, " - Stores ranks"],
+			[{"code": "server_badges.txt"}, " - Stores badges of players by Username/UUID"]
 		]
 	}
 ]

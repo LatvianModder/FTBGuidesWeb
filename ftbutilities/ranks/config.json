@@ -2,7 +2,7 @@
 	{"h1": "Enabling Ranks"},
 	"Set 'Enabled' &amp; 'Override Chat' to true under FTBUtilities > Ranks.",
 	"You can find all permissions and configurations assigned to them in the all_permissions.html file.",
-	{"h1": "Default Rank Assignment"},
+	"While //Comments are used in examples, they won't work in actual files, so remove them if you copy an example.",
 	{"h1": "Permissions"},
 	"To add permission to rank simply write the node below rank definition and add value after \": \"",
 	{"h2": "Command Permissions"},
@@ -13,10 +13,27 @@
 			"[some_rank]",
 			"ftbutilities.claims.block.edit.minecraft.sand: true",
 			"ftbutilities.claims.block.edit.minecraft.stone: false",
-			"ftbutilities.homes.max: 10"
+			"ftbutilities.homes.max: 10",
+			"command.ftbutilities.heal: true"
 		]
 	},
-	"Will allow the rank to break sand in claims, and deny the rank to break stone in a claims.",
+	"Will allow the rank to break sand in claims and use /heal, and deny the rank to break stone in a claims.",
+	{"h1": "Inheritance"},
+	["You can include all permissions from parent rank by adding ", {"code": " extends parent_rank"}, " inside [rank]. You can only extend one rank"],
+	{"h1": "Default Rank Assignment"},
+	["Default ranks aren't required, but it's still recommended to use them. Add ", {"code": " is default_player_rank"}, " or ", {"code": " is default_op_rank"}, " inside [rank]."],
+	"They basically tell what rank to use when player doesn't have any rank assigned.",
+	"You can have multiple tags, but those two are the only functioning ones, currently.",
+	{"h2": "Example"},
+	{
+		"codeblock": [
+			"[player is default_player_rank] // This rank will be used for players that don't have a rank assigned",
+			"command.heal: true",
+			"",
+			"[admin extends player is default_op_rank] // This rank will be used for OPs that don't have a rank assigned",
+			"command: true // Allows to use all commands"
+		]
+	}
 	{"h1": "Chat Formatting"},
 	"Chat formatting is composed of 8 parts: Prefix [Left], Prefix [Base], Prefix [Right], Name, Suffix [Left], Suffix [Base], Suffix [Right], Text. Why so many parts? So you can have better control over ",
 	{"h2": "Example"},
