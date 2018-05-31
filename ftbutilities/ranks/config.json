@@ -2,7 +2,7 @@
 	{"h1": "Enabling Ranks"},
 	"Set 'Enabled' &amp; 'Override Chat' to true under FTBUtilities > Ranks.",
 	"You can find all permissions and configurations assigned to them in the all_permissions.html file.",
-	"While //Comments are used in examples, they won't work in actual files, so remove them if you copy an example.",
+	"While //Comments are used in examples, they won't work in actual files, and will be removed by mod.",
 	{"h1": "Permissions"},
 	"To add permission to rank simply write the node below rank definition and add value after \": \"",
 	{"h2": "Command Permissions"},
@@ -35,15 +35,15 @@
 		]
 	},
 	{"h1": "Chat Formatting"},
-	"Chat formatting is composed of 8 parts: Prefix [Left], Prefix [Base], Prefix [Right], Name, Suffix [Left], Suffix [Base], Suffix [Right], Text. Why so many parts? So you can have better control over ",
+	"Chat formatting is composed of 4 parts: Prefix, Name, Suffix and Text. Prefix and Suffix each split into 3 smaller parts - Left, Base and Right. For a complete list of nodes, see all_permissions.html.",
 	{"h2": "Example"},
 	{
 		"codeblock": [
 			"[admin]",
-			"ftbutilities.chat_formatting.prefix.right.text: \"Admin \" // Text Admin be added before player name with a space",
-			"ftbutilities.chat_formatting.prefix.right.color: \"dark_green\" // Admin be colored dark green",
-			"ftbutilities.chat_formatting.name.color: \"dark_green\" // Player name will also be colored dark green"
+			"ftbutilities.chat.prefix.right.text: \"Admin \" // Text Admin be added before player name with a space",
+			"ftbutilities.chat.prefix.right.color: \"dark_green\" // Admin be colored dark green",
+			"ftbutilities.chat.name.color: \"dark_green\" // Player name will also be colored dark green"
 		]
 	},
-	"The result will be \"<Admin LatvianModder> Hello!\", where Admin and LatvianModder will be dark green."
+	["The result will be ", {"code": "<Admin LatvianModder> Hello!"}, ", where Admin and LatvianModder will be dark green."]
 ]
