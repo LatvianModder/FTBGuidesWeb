@@ -39,12 +39,12 @@
 	"All permissions that you can use to modify chat message text:",
 	{
 		"list": [
-			"ftbutilities.chat.text.color",
-			"ftbutilities.chat.text.bold",
-			"ftbutilities.chat.text.italic",
-			"ftbutilities.chat.text.underlined",
-			"ftbutilities.chat.text.strikethrough",
-			"ftbutilities.chat.text.obfuscated"
+			{"code": "ftbutilities.chat.text.color"},
+			{"code": "ftbutilities.chat.text.bold"},
+			{"code": "ftbutilities.chat.text.italic"},
+			{"code": "ftbutilities.chat.text.underlined"},
+			{"code": "ftbutilities.chat.text.strikethrough"},
+			{"code": "ftbutilities.chat.text.obfuscated"}
 		]
 	},
 	{"h2": "Example"},
