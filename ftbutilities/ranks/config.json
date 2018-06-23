@@ -35,15 +35,33 @@
 		]
 	},
 	{"h1": "Chat Formatting"},
-	"Chat formatting is composed of 4 parts: Prefix, Name, Suffix and Text. Prefix and Suffix each split into 3 smaller parts - Left, Base and Right. For a complete list of nodes, see all_permissions.html.",
+	["To change player name formatting from default <Player> to something more interesting, use ", {"code": "ftbutilities.chat.name_format"}, " permission"],
+	"All permissions that you can use to modify chat message text:",
+	{
+		"list": [
+			"ftbutilities.chat.text.color",
+			"ftbutilities.chat.text.bold",
+			"ftbutilities.chat.text.italic",
+			"ftbutilities.chat.text.underlined",
+			"ftbutilities.chat.text.strikethrough",
+			"ftbutilities.chat.text.obfuscated"
+		]
+	},
 	{"h2": "Example"},
 	{
 		"codeblock": [
 			"[admin]",
-			"ftbutilities.chat.prefix.right.text: \"Admin \" // Text Admin be added before player name with a space",
-			"ftbutilities.chat.prefix.right.color: \"dark_green\" // Admin be colored dark green",
-			"ftbutilities.chat.name.color: \"dark_green\" // Player name will also be colored dark green"
+			"ftbutilities.chat.name_format: \"<&2Admin &l{name}&r>\"",
+			"ftbutilities.chat.text.italic: true"
 		]
 	},
-	["The result will be ", {"code": "<Admin LatvianModder> Hello!"}, ", where Admin and LatvianModder will be dark green."]
+	"Text Admin be added before player name with a space and both that text and name will be dark green, but the player name will be bold",
+	["The result will be ", {"code": "<Admin LatvianModder> Hello!"}, ", where:"],
+	{
+		"list": [
+			[{"code": "Admin"}, " and ", {"code": "LatvianModder"}, " will be dark green;"],
+			[{"code": "LatvianModder"}, " will be bold;"],
+			[{"code": "Hello!"}, " will be italic."]
+		]
+	}
 ]
