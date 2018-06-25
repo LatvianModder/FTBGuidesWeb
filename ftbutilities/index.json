@@ -1,3 +1,6 @@
 [
-	"FTBUtilities is a mod all about helping server owners to manage their servers with chunk protection, backups, and a ton of other things!"
+	"FTBUtilities is a mod all about helping server owners to manage their servers with chunk protection, backups, and a ton of other things!",
+	"",
+	"The guide has been temporarily moved to GitHub, sorry for inconvenience!",
+	{"text": "Click Here!", "click": "https://github.com/LatvianModder/FTBUtilities/tree/master/guide"}
 ]
