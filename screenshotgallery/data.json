@@ -20,16 +20,5 @@
 			"click": "https://github.com/LatvianModder/ScreenshotGallery/issues"
 		}
 	],
-	"pages": [
-		{
-			"id": "uploading_ftp",
-			"title": "Uploading to FTP",
-			"icon": "ftblib:icons/info"
-		},
-		{
-			"id": "uploading_imgur",
-			"title": "Uploading to Imgur",
-			"icon": "ftblib:icons/info"
-		}
-	]
+	"pages": []
 }
